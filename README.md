@@ -1,6 +1,10 @@
 # AngularMaterialTheming
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+The idea with this project is learn Angular Theming, how to change from CSS to SCSS and how to migrate from an Angular earlier version to a newer version.
+
+As always, this project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+
+To run this project install node LTS, install `@angular/cli` globaly, clone this repo and run `npm ci` to install all the packages.
 
 ## Development server
 
