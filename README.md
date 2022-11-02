@@ -10,6 +10,26 @@ To run this project install node LTS, install `@angular/cli` globaly, clone this
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Troubleshoot
+
+In order to manage to run this version, I had to modify `/etc/ssl/openssl.cnf` oin my fedora.
+
+I un-commented this lines
+
+```
+##[provider_sect]
+##default = default_sect
+##legacy = legacy_sect
+##
+##[default_sect]
+##activate = 1
+##
+##[legacy_sect]
+##activate = 1
+```
+
+You may have to exclude the folder `node_modules` and run `npm install` again, and/or use `--openssl-legacy-provider`
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
