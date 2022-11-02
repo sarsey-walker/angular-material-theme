@@ -1,6 +1,6 @@
 # AngularMaterialTheming
 
-The idea with this project is learn Angular Theming, how to change from CSS to SCSS and how to migrate from an Angular earlier version to a newer version.
+The idea with this project is learn Angular Theming, how to change from CSS to SCSS and how to migrate from an Angular earlier version to a newer version as well as make some tests with git.
 
 As always, this project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
 
